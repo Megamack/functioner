@@ -33,6 +33,18 @@ test('Secondstotime 2', t => {t.is(secondsToTime("60"), "0h 1m 0s")})
 test('Secondstotime 3', t => {t.is(secondsToTime("35"), "0h 0m 35s")})
 test('Secondstotime 4', t => {t.is(secondsToTime("3685"), "1h 1m 25s")})
 
+/**
+ * 
+ * @param {int} born year 4 digits
+ */
+function yearsOld(born){
+//returns age 0 - n
+}
+test('Yearsold 1', t => {t.is(yearsOld(2000), 19)})
+test('Yearsold 2', t => {t.is(yearsOld(1975), 44)})
+test('Yearsold 3', t => {t.is(yearsOld(1800), 219)})
+
+
 
 
 
