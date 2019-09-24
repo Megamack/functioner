@@ -85,8 +85,8 @@ function removeAllNumbers(soppa){
     //returns string clear of numbers
 }
 test('Removeallnumbers 1', t => {t.is(removeAllNumbers("M4rkus"), "Mrkus")})
-test('Removeallnumbers 1', t => {t.is(removeAllNumbers("H1rv1k1kk3l1"), "Hrvkkkl")})
-test('Removeallnumbers 1', t => {t.is(removeAllNumbers("M4kk4r4"), "Mkkr")})
+test('Removeallnumbers 2', t => {t.is(removeAllNumbers("H1rv1k1kk3l1"), "Hrvkkkl")})
+test('Removeallnumbers 3', t => {t.is(removeAllNumbers("M4kk4r4"), "Mkkr")})
 
 
 
