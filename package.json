@@ -1,0 +1,17 @@
+{
+  "name": "funktioner",
+  "version": "1.0.0",
+  "description": "funktioner",
+  "main": "functions.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "keywords": [
+    "cool"
+  ],
+  "author": "Mack",
+  "license": "ISC",
+  "dependencies": {
+    "ava": "^2.4.0"
+  }
+}
