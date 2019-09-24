@@ -60,8 +60,15 @@ function mirror(word){
     //returns parameter
 }
 
-test('Mirror 1', t => {t.is(concatenate("Gädda"), "Gädda")})
-test('Mirror 2', t => {t.is(concatenate("Kulpåse"), "Kulpåse")})
+test('Mirror 1', t => {t.is(mirror("Gädda"), "Gädda")})
+test('Mirror 2', t => {t.is(mirror("Kulpåse"), "Kulpåse")})
+
+function backwards(word){
+    //returns word backwards
+}
+test('Backwards 1', t => {t.is(backwards("Markus"), "sukram")})
+test('Backwards 2', t => {t.is(backwards("kroKodil"), "lidokork")})
+test('Backwards 3', t => {t.is(backwards("anna"), "anna")})
 
 
 
